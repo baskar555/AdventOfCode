@@ -1,0 +1,210 @@
+Prinitng the contents
+Key: Q. InNodes = 0, OutNodes count = 5
+O L B S V 
+Key: O. InNodes = 2, OutNodes count = 5
+E P R N T 
+Key: Z. InNodes = 0, OutNodes count = 9
+G O F J A X T P U 
+Key: G. InNodes = 10, OutNodes count = 2
+R V 
+Key: W. InNodes = 0, OutNodes count = 4
+V X K G 
+Key: V. InNodes = 8, OutNodes count = 3
+T R H 
+Key: C. InNodes = 0, OutNodes count = 3
+X E P 
+Key: X. InNodes = 4, OutNodes count = 3
+D A V 
+Key: E. InNodes = 6, OutNodes count = 3
+L T Y 
+Key: K. InNodes = 1, OutNodes count = 3
+N B V 
+Key: N. InNodes = 2, OutNodes count = 6
+E R T Y G D 
+Key: P. InNodes = 3, OutNodes count = 7
+I T D R B X L 
+Key: I. InNodes = 5, OutNodes count = 3
+G H R 
+Key: D. InNodes = 5, OutNodes count = 3
+I Y V 
+Key: F. InNodes = 1, OutNodes count = 3
+A B G 
+Key: A. InNodes = 4, OutNodes count = 2
+L I 
+Key: U. InNodes = 1, OutNodes count = 6
+Y R M I T A 
+Key: Y. InNodes = 7, OutNodes count = 3
+I G R 
+Key: M. InNodes = 1, OutNodes count = 4
+H L Y D 
+Key: H. InNodes = 6, OutNodes count = 1
+T 
+Key: J. InNodes = 1, OutNodes count = 7
+B E H G T Y R 
+Key: B. InNodes = 5, OutNodes count = 5
+E V R Y G 
+Key: S. InNodes = 1, OutNodes count = 6
+L E D T G R 
+Key: L. InNodes = 6, OutNodes count = 3
+G V H 
+Key: R. InNodes = 11, OutNodes count = 2
+H T 
+Key: T. InNodes = 11, OutNodes count = 0
+
+After Inserting Q, the ordering is:
+Q 
+After Inserting Z, the ordering is:
+Q Z 
+After Inserting W, the ordering is:
+Q Z W 
+After Inserting C, the ordering is:
+C Q W Z 
+After Extracting C, the ordering is:
+Q Z W Z 
+Extracted C. The adj letters are:
+X E P 
+After Extracting Q, the ordering is:
+W Z W 
+Extracted Q. The adj letters are:
+O L B S V 
+After Inserting S, the ordering is:
+S Z W 
+After Extracting S, the ordering is:
+W Z W 
+Extracted S. The adj letters are:
+L E D T G R 
+After Extracting W, the ordering is:
+Z Z 
+Extracted W. The adj letters are:
+V X K G 
+After Inserting K, the ordering is:
+K Z 
+After Extracting K, the ordering is:
+Z Z 
+Extracted K. The adj letters are:
+N B V 
+After Extracting Z, the ordering is:
+Z 
+Extracted Z. The adj letters are:
+G O F J A X T P U 
+After Inserting O, the ordering is:
+O 
+After Inserting F, the ordering is:
+F O 
+After Inserting J, the ordering is:
+F O J 
+After Inserting U, the ordering is:
+F O J U 
+After Extracting F, the ordering is:
+J O U U 
+Extracted F. The adj letters are:
+A B G 
+After Extracting J, the ordering is:
+O U U 
+Extracted J. The adj letters are:
+B E H G T Y R 
+After Extracting O, the ordering is:
+U U 
+Extracted O. The adj letters are:
+E P R N T 
+After Inserting P, the ordering is:
+P U 
+After Inserting N, the ordering is:
+N U P 
+After Extracting N, the ordering is:
+P U P 
+Extracted N. The adj letters are:
+E R T Y G D 
+After Extracting P, the ordering is:
+U U 
+Extracted P. The adj letters are:
+I T D R B X L 
+After Inserting B, the ordering is:
+B U 
+After Inserting X, the ordering is:
+B U X 
+After Extracting B, the ordering is:
+U X X 
+Extracted B. The adj letters are:
+E V R Y G 
+After Inserting E, the ordering is:
+E X U 
+After Extracting E, the ordering is:
+U X U 
+Extracted E. The adj letters are:
+L T Y 
+After Extracting U, the ordering is:
+X X 
+Extracted U. The adj letters are:
+Y R M I T A 
+After Inserting M, the ordering is:
+M X 
+After Extracting M, the ordering is:
+X X 
+Extracted M. The adj letters are:
+H L Y D 
+After Extracting X, the ordering is:
+X 
+Extracted X. The adj letters are:
+D A V 
+After Inserting D, the ordering is:
+D 
+After Inserting A, the ordering is:
+A D 
+After Extracting A, the ordering is:
+D D 
+Extracted A. The adj letters are:
+L I 
+After Inserting L, the ordering is:
+D L 
+After Extracting D, the ordering is:
+L L 
+Extracted D. The adj letters are:
+I Y V 
+After Inserting Y, the ordering is:
+L Y 
+After Extracting L, the ordering is:
+Y Y 
+Extracted L. The adj letters are:
+G V H 
+After Extracting Y, the ordering is:
+Y 
+Extracted Y. The adj letters are:
+I G R 
+After Inserting I, the ordering is:
+I 
+After Extracting I, the ordering is:
+I 
+Extracted I. The adj letters are:
+G H R 
+After Inserting G, the ordering is:
+G 
+After Extracting G, the ordering is:
+G 
+Extracted G. The adj letters are:
+R V 
+After Inserting V, the ordering is:
+V 
+After Extracting V, the ordering is:
+V 
+Extracted V. The adj letters are:
+T R H 
+After Inserting R, the ordering is:
+R 
+After Extracting R, the ordering is:
+R 
+Extracted R. The adj letters are:
+H T 
+After Inserting H, the ordering is:
+H 
+After Extracting H, the ordering is:
+H 
+Extracted H. The adj letters are:
+T 
+After Inserting T, the ordering is:
+T 
+After Extracting T, the ordering is:
+T 
+Extracted T. The adj letters are:
+
+CQSWKZFJONPBEUMXADLYIGVRHT

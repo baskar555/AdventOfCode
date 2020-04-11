@@ -1,0 +1,45 @@
+Prinitng the contents
+Key: C. InNodes = 0, OutNodes count = 2
+A F 
+Key: A. InNodes = 1, OutNodes count = 2
+B D 
+Key: F. InNodes = 1, OutNodes count = 1
+E 
+Key: B. InNodes = 1, OutNodes count = 1
+E 
+Key: D. InNodes = 1, OutNodes count = 1
+E 
+Key: E. InNodes = 3, OutNodes count = 0
+
+Prinitng the contents of PartB
+Key: C. InNodes = 0, OutNodes count = 2
+A F 
+Key: A. InNodes = 1, OutNodes count = 2
+B D 
+Key: F. InNodes = 1, OutNodes count = 1
+E 
+Key: B. InNodes = 1, OutNodes count = 1
+E 
+Key: D. InNodes = 1, OutNodes count = 1
+E 
+Key: E. InNodes = 3, OutNodes count = 0
+
+Extracted C. The adj letters are:
+A F 
+Extracted A. The adj letters are:
+B D 
+Extracted B. The adj letters are:
+E 
+Extracted D. The adj letters are:
+E 
+Extracted F. The adj letters are:
+E 
+Extracted E. The adj letters are:
+
+CABDFE
+Is minHeapPartB empty? False
+Time	 1 	 2 	 3 	 4 	 5
+0	C	A	
+1	C		
+2		F	
+3	E	F	
